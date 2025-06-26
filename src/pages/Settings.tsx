@@ -45,11 +45,11 @@ const Settings = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="company-name">Company Name</Label>
-                    <Input id="company-name" defaultValue="Essco Admin" />
+                    <Input id="company-name" defaultValue="Jaquar Admin" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="admin-email">Admin Email</Label>
-                    <Input id="admin-email" type="email" defaultValue="admin@essco.com" />
+                    <Input id="admin-email" type="email" defaultValue="admin@jaquar.com" />
                   </div>
                 </div>
 
@@ -273,7 +273,7 @@ const Settings = () => {
                   <Textarea 
                     id="welcome-message" 
                     placeholder="Enter welcome message for new chat sessions..."
-                    defaultValue="Welcome to ESSCO! How can we help you today?"
+                    defaultValue="Welcome to Jaquar! How can we help you today?"
                   />
                 </div>
 

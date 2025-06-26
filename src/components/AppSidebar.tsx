@@ -26,10 +26,10 @@ const AppSidebar = () => {
     { name: 'Chat Sessions', path: '/chat-sessions', icon: List },
     { name: 'User Management', path: '/user-management', icon: Users },
     { name: 'Analytics', path: '/analytics', icon: PieChart },
+    { name: 'Usage Details', path: '/usagedetails', icon: Calendar },
     { name: 'Settings', path: '/settings', icon: Settings },
-    { name: 'Reports', path: '/reports', icon: Calendar },
+    
   ];
-
   const handleLogout = () => {
     // Clear any stored authentication data
     localStorage.removeItem('auth-token');
@@ -50,11 +50,11 @@ const AppSidebar = () => {
         <div className="flex items-center justify-center p-4">
           {!isCollapsed ? (
             <div className="flex flex-col items-center">
-              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">ESSCO</div>
+              <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">Jaquar</div>
               <div className="text-sm text-muted-foreground">powered by Jaquar</div>
             </div>
           ) : (
-            <div className="text-xl font-bold text-blue-600 dark:text-blue-400">E</div>
+            <div className="text-xl font-bold text-blue-600 dark:text-blue-400">J</div>
           )}
         </div>
       </SidebarHeader>

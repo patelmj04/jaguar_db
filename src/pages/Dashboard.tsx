@@ -25,15 +25,15 @@ const Dashboard = () => {
     { name: 'Tablet', value: 10, color: '#f59e0b' }
   ];
 
-  const cityData = [
-    { name: 'Mumbai', value: 28 },
-    { name: 'Delhi', value: 22 },
-    { name: 'Bangalore', value: 18 },
-    { name: 'Chennai', value: 12 },
-    { name: 'Hyderabad', value: 8 },
-    { name: 'Pune', value: 7 },
-    { name: 'Kolkata', value: 5 }
-  ];
+  // const cityData = [
+  //   { name: 'Mumbai', value: 28 },
+  //   { name: 'Delhi', value: 22 },
+  //   { name: 'Bangalore', value: 18 },
+  //   { name: 'Chennai', value: 12 },
+  //   { name: 'Hyderabad', value: 8 },
+  //   { name: 'Pune', value: 7 },
+  //   { name: 'Kolkata', value: 5 }
+  // ];
 
   return (
     <AppLayout>
@@ -148,7 +148,7 @@ const Dashboard = () => {
           </Card>
 
           {/* Top 7 Cities */}
-          <Card className="p-6">
+          {/* <Card className="p-6">
             <h3 className="text-lg font-semibold mb-4">Top 7 Cities</h3>
             <div className="space-y-3">
               {cityData.map((city, index) => (
@@ -161,7 +161,7 @@ const Dashboard = () => {
                 </div>
               ))}
             </div>
-          </Card>
+          </Card> */}
 
           {/* Top Queries */}
           <Card className="p-6">

@@ -43,7 +43,7 @@ const Login = () => {
         <div className="text-center mb-8">
           <div className="mb-6">
             <div className="bg-gradient-to-r from-blue-600 to-violet-600 text-white px-6 py-3 rounded-lg inline-block">
-              <h1 className="text-xl font-bold">ESSCO</h1>
+              <h1 className="text-xl font-bold">Jaquar</h1>
               <p className="text-sm opacity-90">powered by Jaquar</p>
             </div>
           </div>
